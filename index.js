@@ -4,6 +4,13 @@ const bodyparser=require("body-parser")
 const app=server()
 const pathfinder=path.join(__dirname,'client')
 app.use(bodyparser.urlencoded({extended:true}))
+
+
+app.get("/",(req,res)=>{
+    res.sendFile(`${pathfinder}/index.html`)
+});
+
+
 app.get("/start",(req,res)=>{
     res.sendFile(`${pathfinder}/index.html`)
 });
