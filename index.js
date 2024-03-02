@@ -9,11 +9,6 @@ app.use(bodyparser.urlencoded({extended:true}))
 app.get("/",(req,res)=>{
     res.sendFile(`${pathfinder}/index.html`)
 });
-
-
-app.get("/start",(req,res)=>{
-    res.sendFile(`${pathfinder}/index.html`)
-});
 app.post("/start",(req,res)=>{
     const body=req.body;
     console.log("submitted with:",body);
