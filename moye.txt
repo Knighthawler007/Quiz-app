@@ -135,3 +135,79 @@ Here are the answers:
     <input type="radio" name="q10" value="Requires a sorted collection"> Requires a sorted collection<br>
     <input type="radio" name="q10" value="Consumes excessive memory"> Consumes excessive memory<br>
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>choose</title>
+</head>
+<body>
+    <form action="/start2" method="post">
+    <h1>Quiz</h1>
+    <h2>Choose from the given options:</h2>
+    <div id="question1" class="question">
+        <h3>Question 1: What is the capital of France?</h3>
+        <input type="radio" name="q1" value="paris"> Paris<br>
+        <input type="radio" name="q1" value="london"> London<br>
+        <input type="radio" name="q1" value="berlin"> Berlin<br>
+    </div>
+
+    <div id="question2" class="question" style="display: none;">
+        <h3>Question 2: Who wrote Romeo and Juliet?</h3>
+        <input type="radio" name="q2" value="shakespeare"> William Shakespeare<br>
+        <input type="radio" name="q2" value="dickens"> Charles Dickens<br>
+        <input type="radio" name="q2" value="twain"> Mark Twain<br>
+    </div>
+
+    <div id="question3" class="question" style="display: none;">
+        <h3>Question 3: What is the largest mammal?</h3>
+        <input type="radio" name="q3" value="elephant"> Elephant<br>
+        <input type="radio" name="q3" value="whale"> Blue Whale<br>
+        <input type="radio" name="q3" value="giraffe"> Giraffe<br>
+    </div>
+    <button type="button" id="prevbtn" style="display:none;" onclick="showPrev()">Previous</button>
+    <button type="button" id="nextbtn" onclick="showNext()">Next</button>
+
+    <script>
+        let qi=1;
+        const qt=3;
+        function showPrev(){
+            if(qi>1){
+                document.getElementById(`question${qi}`).style.display="none";
+                qi--;
+                document.getElementById(`question${qi}`).style.display="block";
+                hidebutton();
+            }
+            
+        }
+        function showNext(){
+            if(qi<qt){
+                document.getElementById(`question${qi}`).style.display="none";
+                qi++;
+                document.getElementById(`question${qi}`).style.display="block";
+                hidebutton();
+            }
+        }
+        function hidebutton(){
+            if(qi==1)
+            {
+                document.getElementById("prevbtn").style.display="none";
+            }else{
+                document.getElementById("prevbtn").style.display="block";
+            }
+            if(qi==qt)
+            {
+                document.getElementById("nextbtn").style.display="none";
+            }else{
+                document.getElementById("nextbtn").style.display="block";
+            }
+            }
+        
+    </script>
+
+
+</form>
+</body>
+</html>

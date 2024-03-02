@@ -91,23 +91,40 @@
         <button type="button" onclick="showNext()">Next</button>
 
         <script>
-            let qi = 1;
-            const qt = 10;
-            function showPrev() {
-                if (qi > 1) {
-                    document.getElementById(`question${qi}`).style.display = "none";
+            let qi=1;
+            const qt=3;
+            function showPrev(){
+                if(qi>1){
+                    document.getElementById(`question${qi}`).style.display="none";
                     qi--;
-                    document.getElementById(`question${qi}`).style.display = "block";
+                    document.getElementById(`question${qi}`).style.display="block";
+                    hidebutton();
                 }
-
+                
             }
-            function showNext() {
-                if (qi < qt) {
-                    document.getElementById(`question${qi}`).style.display = "none";
+            function showNext(){
+                if(qi<qt){
+                    document.getElementById(`question${qi}`).style.display="none";
                     qi++;
-                    document.getElementById(`question${qi}`).style.display = "block";
+                    document.getElementById(`question${qi}`).style.display="block";
+                    hidebutton();
                 }
             }
+            function hidebutton(){
+                if(qi==1)
+                {
+                    document.getElementById("prevbtn").style.display="none";
+                }else{
+                    document.getElementById("prevbtn").style.display="block";
+                }
+                if(qi==qt)
+                {
+                    document.getElementById("nextbtn").style.display="none";
+                }else{
+                    document.getElementById("nextbtn").style.display="block";
+                }
+                }
+            
         </script>
 
 
