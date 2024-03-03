@@ -10,3 +10,68 @@ Here are the answers for coding:
 8. To store and manipulate data
 9. To exit the loop prematurely
 10. To send a value back to the calling code
+
+Here are the answers for Science:
+
+1. **Biology:** What is the powerhouse of the cell?
+   - Answer: C) Mitochondria
+
+2. **Physics:** What is the SI unit of force?
+   - Answer: A) Newton
+
+3. **Chemistry:** Which element has the chemical symbol "O"?
+   - Answer: A) Oxygen
+
+4. **Astronomy:** What is the closest galaxy to the Milky Way?
+   - Answer: A) Andromeda
+
+5. **Earth Science:** What layer of the Earth's atmosphere contains the ozone layer?
+   - Answer: B) Stratosphere
+
+6. **Environmental Science:** Which gas is responsible for the greenhouse effect?
+   - Answer: B) Carbon Dioxide
+
+7. **Anatomy:** What is the largest organ in the human body?
+   - Answer: B) Skin
+
+8. **Genetics:** What is the name of the molecule that carries genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms?
+   - Answer: B) DNA
+
+9. **Paleontology:** What era is known as the "Age of Dinosaurs"?
+   - Answer: B) Mesozoic Era
+
+10. **Medicine:** Which scientist discovered penicillin?
+    - Answer: A) Alexander Fleming
+
+
+Here are the answers for sports:
+
+1. **Cricket:** Who is known as the "God of Cricket" in Indian cricket history?
+   - Answer: C) Sachin Tendulkar
+
+2. **Cricket:** In which city did the first edition of the Indian Premier League (IPL) take place?
+   - Answer: A) Mumbai
+
+3. **Olympics:** Which Indian athlete won the first individual gold medal in the Olympic Games?
+   - Answer: B) P. T. Usha
+
+4. **Sports:** In which sport is Geet Sethi associated with?
+   - Answer: B) Snooker
+
+5. **Cricket:** Who is the captain of the Indian men's national cricket team as of 2022?
+   - Answer: A) Rohit Sharma
+
+6. **Commonwealth Games:** In which year did India host the Commonwealth Games for the first time?
+   - Answer: B) 2010
+
+7. **Olympics:** Who was the first Indian to win an Olympic gold medal?
+   - Answer: B) K. D. Jadhav
+
+8. **Athletics:** In which sport did Anju Bobby George make history for India?
+   - Answer: A) Athletics
+
+9. **Cricket:** Which Indian cricketer is known as the "Captain Cool"?
+   - Answer: C) Mahendra Singh Dhoni
+
+10. **Badminton:** In which sport did Saina Nehwal achieve success for India?
+    - Answer: A) Badminton

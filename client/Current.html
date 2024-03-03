@@ -9,83 +9,77 @@
 
 <body>
     <form action="/start3" method="post">
-        <h1>Quiz</h1>
+        <h1>Current Affairs Quiz</h1>
         <h2>Choose from the given options:</h2>
-        <div id="question1" class="question">
-            <h3>Question 1: What is the primary purpose of a stack in data structures</h3>
-            <input type="radio" name="q1" value="First-In-First-Out (FIFO)"> First-In-First-Out (FIFO)<br>
-            <input type="radio" name="q1" value="Last-In-First-Out (LIFO)"> Last-In-First-Out (LIFO)<br>
-            <input type="radio" name="q1" value="Random access"> Random access<br>
+        <div id="question1" class="question" style="display: none">
+            <h3>Question 1: Which country recently hosted the G20 Summit?</h3>
+            <input type="radio" name="q1" value="Japan"> Japan<br>
+            <input type="radio" name="q1" value="India"> India<br>
+            <input type="radio" name="q1" value="Italy"> Italy<br>
         </div>
-
-        <div id="question2" class="question" style="display: none;">
-            <h3>Question 2: Which data structure is best suited for quickly finding the smallest element in a
-                collection?</h3>
-            <input type="radio" name="q2" value="Queue"> Queue<br>
-            <input type="radio" name="q2" value="Heap"> Heap<br>
-            <input type="radio" name="q2" value="Linked List"> Linked List<br>
+        
+        <div id="question2" class="question" style="display: none">
+            <h3>Question 2: What is the capital of Brazil?</h3>
+            <input type="radio" name="q2" value="Brasília"> Brasília<br>
+            <input type="radio" name="q2" value="Rio de Janeiro"> Rio de Janeiro<br>
+            <input type="radio" name="q2" value="São Paulo"> São Paulo<br>
         </div>
-
-        <div id="question3" class="question" style="display: none;">
-            <h3>Question 3: In which scenario is a hash table most efficient?</h3>
-            <input type="radio" name="q3" value="Storing sorted data"> Storing sorted data<br>
-            <input type="radio" name="q3" value="Searching for an element by index"> Searching for an element by
-            index<br>
-            <input type="radio" name="q3" value="Rapid data retrieval by a known key"> Rapid data retrieval by a known
-            key<br>
+        
+        <div id="question3" class="question" style="display: none">
+            <h3>Question 3: Who won the Nobel Prize in Physics in the most recent announcement?</h3>
+            <input type="radio" name="q3" value="Andrea Ghez"> Andrea Ghez<br>
+            <input type="radio" name="q3" value="Roger Penrose"> Roger Penrose<br>
+            <input type="radio" name="q3" value="Reinhard Genzel"> Reinhard Genzel<br>
         </div>
-
-        <div id="question4" class="question" style="display: none;">
-            <h3>Question 4: What is the time complexity for searching an element in a balanced binary search tree?</h3>
-            <input type="radio" name="q4" value="O(1)"> O(1)<br>
-            <input type="radio" name="q4" value="O(log n)"> O(log n)<br>
-            <input type="radio" name="q4" value="O(n)"> O(n)<br>
+        
+        <div id="question4" class="question" style="display: none">
+            <h3>Question 4: Which country recently launched its first space tourism mission?</h3>
+            <input type="radio" name="q4" value="China"> China<br>
+            <input type="radio" name="q4" value="Russia"> Russia<br>
+            <input type="radio" name="q4" value="United States"> United States<br>
         </div>
-
-        <div id="question5" class="question" style="display: none;">
-            <h3>Question 5: Which data structure is used for graph traversal algorithms?</h3>
-            <input type="radio" name="q5" value="Stack"> Stack<br>
-            <input type="radio" name="q5" value="Queue"> Queue<br>
-            <input type="radio" name="q5" value="Array"> Array<br>
+        
+        <div id="question5" class="question" style="display: none">
+            <h3>Question 5: What major climate conference took place in 2021, addressing global environmental issues?</h3>
+            <input type="radio" name="q5" value="COP21"> COP21<br>
+            <input type="radio" name="q5" value="COP22"> COP22<br>
+            <input type="radio" name="q5" value="COP26"> COP26<br>
         </div>
-
-        <div id="question6" class="question" style="display: none;">
-            <h3>Question 6: What is the primary advantage of using a linked list over an array?</h3>
-            <input type="radio" name="q6" value="Constant time access to any element"> Constant time access to any
-            element<br>
-            <input type="radio" name="q6" value="Efficient memory utilization"> Efficient memory utilization<br>
-            <input type="radio" name="q6" value="Ability to resize dynamically"> Ability to resize dynamically<br>
+        
+        <div id="question6" class="question" style="display: none">
+            <h3>Question 6: In which city did the 2020 Summer Olympics take place?</h3>
+            <input type="radio" name="q6" value="Beijing"> Beijing<br>
+            <input type="radio" name="q6" value="Tokyo"> Tokyo<br>
+            <input type="radio" name="q6" value="Rio de Janeiro"> Rio de Janeiro<br>
         </div>
-
-        <div id="question7" class="question" style="display: none;">
-            <h3>Question 7: Which sorting algorithm has an average-case time complexity of O(n log n)?</h3>
-            <input type="radio" name="q7" value="Bubble Sort"> Bubble Sort<br>
-            <input type="radio" name="q7" value="Merge Sort"> Merge Sort<br>
-            <input type="radio" name="q7" value="Insertion Sort"> Insertion Sort<br>
+        
+        <div id="question7" class="question" style="display: none">
+            <h3>Question 7: What is the latest development in the ongoing COVID-19 pandemic?</h3>
+            <input type="radio" name="q7" value="Discovery of a new variant"> Discovery of a new variant<br>
+            <input type="radio" name="q7" value="Global eradication of the virus"> Global eradication of the virus<br>
+            <input type="radio" name="q7" value="Successful vaccine distribution"> Successful vaccine distribution<br>
         </div>
-
-        <div id="question8" class="question" style="display: none;">
-            <h3>Question 8: What is the main purpose of a priority queue?</h3>
-            <input type="radio" name="q8" value="Random access to elements"> Random access to elements<br>
-            <input type="radio" name="q8" value="Efficiently finding the maximum element"> Efficiently finding the
-            maximum element<br>
-            <input type="radio" name="q8" value="Maintaining a first-in-first-out order"> Maintaining a
-            first-in-first-out order<br>
+        
+        <div id="question8" class="question" style="display: none">
+            <h3>Question 8: Which country recently announced a significant milestone in renewable energy production?</h3>
+            <input type="radio" name="q8" value="Germany"> Germany<br>
+            <input type="radio" name="q8" value="India"> India<br>
+            <input type="radio" name="q8" value="Saudi Arabia"> Saudi Arabia<br>
         </div>
-
-        <div id="question9" class="question" style="display: none;">
-            <h3>Question 9: Which operation takes constant time in a hash table with a well-designed hash function?</h3>
-            <input type="radio" name="q9" value="Insertion"> Insertion<br>
-            <input type="radio" name="q9" value="Deletion"> Deletion<br>
-            <input type="radio" name="q9" value="Searching"> Searching<br>
+        
+        <div id="question9" class="question" style="display: none">
+            <h3>Question 9: Who is the current Secretary-General of the United Nations?</h3>
+            <input type="radio" name="q9" value="António Guterres"> António Guterres<br>
+            <input type="radio" name="q9" value="Ban Ki-moon"> Ban Ki-moon<br>
+            <input type="radio" name="q9" value="Kofi Annan"> Kofi Annan<br>
         </div>
-
-        <div id="question10" class="question" style="display: none;">
-            <h3>Question 10: What is the primary drawback of using a linear search algorithm?</h3>
-            <input type="radio" name="q10" value="Inefficient for large datasets"> Inefficient for large datasets<br>
-            <input type="radio" name="q10" value="Requires a sorted collection"> Requires a sorted collection<br>
-            <input type="radio" name="q10" value="Consumes excessive memory"> Consumes excessive memory<br>
-        </div>
+        
+        <div id="question10" class="question" style="display: none">
+            <h3>Question 10: In which region did a major natural disaster recently occur, impacting multiple countries?</h3>
+            <input type="radio" name="q10" value="Caribbean"> Caribbean<br>
+            <input type="radio" name="q10" value="Southeast Asia"> Southeast Asia<br>
+            <input type="radio" name="q10" value="Pacific Islands"> Pacific Islands<br>
+        </div>        
         <br>
         <button type="button" id="prevbtn" style="display: none;" onclick="showPrev()">Previous</button><br>
         <button type="button" id="nextbtn" onclick="showNext()">Next</button><br><br>

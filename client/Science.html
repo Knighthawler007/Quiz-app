@@ -9,83 +9,77 @@
 
 <body>
     <form action="/start3" method="post">
-        <h1>Quiz</h1>
+        <h1>Science Quiz</h1>
         <h2>Choose from the given options:</h2>
-        <div id="question1" class="question">
-            <h3>Question 1: What is the primary purpose of a stack in data structures</h3>
-            <input type="radio" name="q1" value="First-In-First-Out (FIFO)"> First-In-First-Out (FIFO)<br>
-            <input type="radio" name="q1" value="Last-In-First-Out (LIFO)"> Last-In-First-Out (LIFO)<br>
-            <input type="radio" name="q1" value="Random access"> Random access<br>
+        <div id="question1" class="question" style="display: none">
+            <h3>Question 1: What is the powerhouse of the cell?</h3>
+            <input type="radio" name="q1" value="Nucleus"> Nucleus<br>
+            <input type="radio" name="q1" value="Ribosome"> Ribosome<br>
+            <input type="radio" name="q1" value="Mitochondria"> Mitochondria<br>
         </div>
-
-        <div id="question2" class="question" style="display: none;">
-            <h3>Question 2: Which data structure is best suited for quickly finding the smallest element in a
-                collection?</h3>
-            <input type="radio" name="q2" value="Queue"> Queue<br>
-            <input type="radio" name="q2" value="Heap"> Heap<br>
-            <input type="radio" name="q2" value="Linked List"> Linked List<br>
+        
+        <div id="question2" class="question" style="display: none">
+            <h3>Question 2: What is the SI unit of force?</h3>
+            <input type="radio" name="q2" value="Newton"> Newton<br>
+            <input type="radio" name="q2" value="Watt"> Watt<br>
+            <input type="radio" name="q2" value="Joule"> Joule<br>
         </div>
-
-        <div id="question3" class="question" style="display: none;">
-            <h3>Question 3: In which scenario is a hash table most efficient?</h3>
-            <input type="radio" name="q3" value="Storing sorted data"> Storing sorted data<br>
-            <input type="radio" name="q3" value="Searching for an element by index"> Searching for an element by
-            index<br>
-            <input type="radio" name="q3" value="Rapid data retrieval by a known key"> Rapid data retrieval by a known
-            key<br>
+        
+        <div id="question3" class="question" style="display: none">
+            <h3>Question 3: Which element has the chemical symbol "O"?</h3>
+            <input type="radio" name="q3" value="Oxygen"> Oxygen<br>
+            <input type="radio" name="q3" value="Osmium"> Osmium<br>
+            <input type="radio" name="q3" value="Oganesson"> Oganesson<br>
         </div>
-
-        <div id="question4" class="question" style="display: none;">
-            <h3>Question 4: What is the time complexity for searching an element in a balanced binary search tree?</h3>
-            <input type="radio" name="q4" value="O(1)"> O(1)<br>
-            <input type="radio" name="q4" value="O(log n)"> O(log n)<br>
-            <input type="radio" name="q4" value="O(n)"> O(n)<br>
+        
+        <div id="question4" class="question" style="display: none">
+            <h3>Question 4: What is the closest galaxy to the Milky Way?</h3>
+            <input type="radio" name="q4" value="Andromeda"> Andromeda<br>
+            <input type="radio" name="q4" value="Triangulum"> Triangulum<br>
+            <input type="radio" name="q4" value="Centaurus A"> Centaurus A<br>
         </div>
-
-        <div id="question5" class="question" style="display: none;">
-            <h3>Question 5: Which data structure is used for graph traversal algorithms?</h3>
-            <input type="radio" name="q5" value="Stack"> Stack<br>
-            <input type="radio" name="q5" value="Queue"> Queue<br>
-            <input type="radio" name="q5" value="Array"> Array<br>
+        
+        <div id="question5" class="question" style="display: none">
+            <h3>Question 5: What layer of the Earth's atmosphere contains the ozone layer?</h3>
+            <input type="radio" name="q5" value="Troposphere"> Troposphere<br>
+            <input type="radio" name="q5" value="Stratosphere"> Stratosphere<br>
+            <input type="radio" name="q5" value="Mesosphere"> Mesosphere<br>
         </div>
-
-        <div id="question6" class="question" style="display: none;">
-            <h3>Question 6: What is the primary advantage of using a linked list over an array?</h3>
-            <input type="radio" name="q6" value="Constant time access to any element"> Constant time access to any
-            element<br>
-            <input type="radio" name="q6" value="Efficient memory utilization"> Efficient memory utilization<br>
-            <input type="radio" name="q6" value="Ability to resize dynamically"> Ability to resize dynamically<br>
+        
+        <div id="question6" class="question" style="display: none">
+            <h3>Question 6: Which gas is responsible for the greenhouse effect?</h3>
+            <input type="radio" name="q6" value="Nitrous Oxide"> Nitrous Oxide<br>
+            <input type="radio" name="q6" value="Carbon Dioxide"> Carbon Dioxide<br>
+            <input type="radio" name="q6" value="Methane"> Methane<br>
         </div>
-
-        <div id="question7" class="question" style="display: none;">
-            <h3>Question 7: Which sorting algorithm has an average-case time complexity of O(n log n)?</h3>
-            <input type="radio" name="q7" value="Bubble Sort"> Bubble Sort<br>
-            <input type="radio" name="q7" value="Merge Sort"> Merge Sort<br>
-            <input type="radio" name="q7" value="Insertion Sort"> Insertion Sort<br>
+        
+        <div id="question7" class="question" style="display: none">
+            <h3>Question 7: What is the largest organ in the human body?</h3>
+            <input type="radio" name="q7" value="Liver"> Liver<br>
+            <input type="radio" name="q7" value="Skin"> Skin<br>
+            <input type="radio" name="q7" value="Heart"> Heart<br>
         </div>
-
-        <div id="question8" class="question" style="display: none;">
-            <h3>Question 8: What is the main purpose of a priority queue?</h3>
-            <input type="radio" name="q8" value="Random access to elements"> Random access to elements<br>
-            <input type="radio" name="q8" value="Efficiently finding the maximum element"> Efficiently finding the
-            maximum element<br>
-            <input type="radio" name="q8" value="Maintaining a first-in-first-out order"> Maintaining a
-            first-in-first-out order<br>
+        
+        <div id="question8" class="question" style="display: none">
+            <h3>Question 8: What is the name of the molecule that carries genetic instructions?</h3>
+            <input type="radio" name="q8" value="RNA"> RNA<br>
+            <input type="radio" name="q8" value="DNA"> DNA<br>
+            <input type="radio" name="q8" value="mRNA"> mRNA<br>
         </div>
-
-        <div id="question9" class="question" style="display: none;">
-            <h3>Question 9: Which operation takes constant time in a hash table with a well-designed hash function?</h3>
-            <input type="radio" name="q9" value="Insertion"> Insertion<br>
-            <input type="radio" name="q9" value="Deletion"> Deletion<br>
-            <input type="radio" name="q9" value="Searching"> Searching<br>
+        
+        <div id="question9" class="question" style="display: none">
+            <h3>Question 9: What era is known as the "Age of Dinosaurs"?</h3>
+            <input type="radio" name="q9" value="Cenozoic Era"> Cenozoic Era<br>
+            <input type="radio" name="q9" value="Mesozoic Era"> Mesozoic Era<br>
+            <input type="radio" name="q9" value="Paleozoic Era"> Paleozoic Era<br>
         </div>
-
-        <div id="question10" class="question" style="display: none;">
-            <h3>Question 10: What is the primary drawback of using a linear search algorithm?</h3>
-            <input type="radio" name="q10" value="Inefficient for large datasets"> Inefficient for large datasets<br>
-            <input type="radio" name="q10" value="Requires a sorted collection"> Requires a sorted collection<br>
-            <input type="radio" name="q10" value="Consumes excessive memory"> Consumes excessive memory<br>
-        </div>
+        
+        <div id="question10" class="question" style="display: none">
+            <h3>Question 10: Which scientist discovered penicillin?</h3>
+            <input type="radio" name="q10" value="Alexander Fleming"> Alexander Fleming<br>
+            <input type="radio" name="q10" value="Louis Pasteur"> Louis Pasteur<br>
+            <input type="radio" name="q10" value="Joseph Lister"> Joseph Lister<br>
+        </div>        
         <br>
         <button type="button" id="prevbtn" style="display: none;" onclick="showPrev()">Previous</button><br>
         <button type="button" id="nextbtn" onclick="showNext()">Next</button><br><br>

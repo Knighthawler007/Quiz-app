@@ -9,83 +9,77 @@
 
 <body>
     <form action="/start3" method="post">
-        <h1>Quiz</h1>
+        <h1>Sports Quiz</h1>
         <h2>Choose from the given options:</h2>
-        <div id="question1" class="question">
-            <h3>Question 1: What is the primary purpose of a stack in data structures</h3>
-            <input type="radio" name="q1" value="First-In-First-Out (FIFO)"> First-In-First-Out (FIFO)<br>
-            <input type="radio" name="q1" value="Last-In-First-Out (LIFO)"> Last-In-First-Out (LIFO)<br>
-            <input type="radio" name="q1" value="Random access"> Random access<br>
+        <div id="question1" class="question" style="display: none">
+            <h3>Question 1: Who is known as the "God of Cricket" in Indian cricket history?</h3>
+            <input type="radio" name="q1" value="Sourav Ganguly"> Sourav Ganguly<br>
+            <input type="radio" name="q1" value="Rahul Dravid"> Rahul Dravid<br>
+            <input type="radio" name="q1" value="Sachin Tendulkar"> Sachin Tendulkar<br>
         </div>
-
-        <div id="question2" class="question" style="display: none;">
-            <h3>Question 2: Which data structure is best suited for quickly finding the smallest element in a
-                collection?</h3>
-            <input type="radio" name="q2" value="Queue"> Queue<br>
-            <input type="radio" name="q2" value="Heap"> Heap<br>
-            <input type="radio" name="q2" value="Linked List"> Linked List<br>
+        
+        <div id="question2" class="question" style="display: none">
+            <h3>Question 2: In which city did the first edition of the Indian Premier League (IPL) take place?</h3>
+            <input type="radio" name="q2" value="Mumbai"> Mumbai<br>
+            <input type="radio" name="q2" value="Kolkata"> Kolkata<br>
+            <input type="radio" name="q2" value="Bangalore"> Bangalore<br>
         </div>
-
-        <div id="question3" class="question" style="display: none;">
-            <h3>Question 3: In which scenario is a hash table most efficient?</h3>
-            <input type="radio" name="q3" value="Storing sorted data"> Storing sorted data<br>
-            <input type="radio" name="q3" value="Searching for an element by index"> Searching for an element by
-            index<br>
-            <input type="radio" name="q3" value="Rapid data retrieval by a known key"> Rapid data retrieval by a known
-            key<br>
+        
+        <div id="question3" class="question" style="display: none">
+            <h3>Question 3: Which Indian athlete won the first individual gold medal in the Olympic Games?</h3>
+            <input type="radio" name="q3" value="Milkha Singh"> Milkha Singh<br>
+            <input type="radio" name="q3" value="P. T. Usha"> P. T. Usha<br>
+            <input type="radio" name="q3" value="Abhinav Bindra"> Abhinav Bindra<br>
         </div>
-
-        <div id="question4" class="question" style="display: none;">
-            <h3>Question 4: What is the time complexity for searching an element in a balanced binary search tree?</h3>
-            <input type="radio" name="q4" value="O(1)"> O(1)<br>
-            <input type="radio" name="q4" value="O(log n)"> O(log n)<br>
-            <input type="radio" name="q4" value="O(n)"> O(n)<br>
+        
+        <div id="question4" class="question" style="display: none">
+            <h3>Question 4: In which sport is Geet Sethi associated with?</h3>
+            <input type="radio" name="q4" value="Badminton"> Badminton<br>
+            <input type="radio" name="q4" value="Snooker"> Snooker<br>
+            <input type="radio" name="q4" value="Hockey"> Hockey<br>
         </div>
-
-        <div id="question5" class="question" style="display: none;">
-            <h3>Question 5: Which data structure is used for graph traversal algorithms?</h3>
-            <input type="radio" name="q5" value="Stack"> Stack<br>
-            <input type="radio" name="q5" value="Queue"> Queue<br>
-            <input type="radio" name="q5" value="Array"> Array<br>
+        
+        <div id="question5" class="question" style="display: none">
+            <h3>Question 5: Who is the captain of the Indian men's national cricket team as of 2022?</h3>
+            <input type="radio" name="q5" value="Rohit Sharma"> Rohit Sharma<br>
+            <input type="radio" name="q5" value="Virat Kohli"> Virat Kohli<br>
+            <input type="radio" name="q5" value="Ajinkya Rahane"> Ajinkya Rahane<br>
         </div>
-
-        <div id="question6" class="question" style="display: none;">
-            <h3>Question 6: What is the primary advantage of using a linked list over an array?</h3>
-            <input type="radio" name="q6" value="Constant time access to any element"> Constant time access to any
-            element<br>
-            <input type="radio" name="q6" value="Efficient memory utilization"> Efficient memory utilization<br>
-            <input type="radio" name="q6" value="Ability to resize dynamically"> Ability to resize dynamically<br>
+        
+        <div id="question6" class="question" style="display: none">
+            <h3>Question 6: In which year did India host the Commonwealth Games for the first time?</h3>
+            <input type="radio" name="q6" value="2002"> 2002<br>
+            <input type="radio" name="q6" value="2010"> 2010<br>
+            <input type="radio" name="q6" value="2018"> 2018<br>
         </div>
-
-        <div id="question7" class="question" style="display: none;">
-            <h3>Question 7: Which sorting algorithm has an average-case time complexity of O(n log n)?</h3>
-            <input type="radio" name="q7" value="Bubble Sort"> Bubble Sort<br>
-            <input type="radio" name="q7" value="Merge Sort"> Merge Sort<br>
-            <input type="radio" name="q7" value="Insertion Sort"> Insertion Sort<br>
+        
+        <div id="question7" class="question" style="display: none">
+            <h3>Question 7: Who was the first Indian to win an Olympic gold medal?</h3>
+            <input type="radio" name="q7" value="Abhinav Bindra"> Abhinav Bindra<br>
+            <input type="radio" name="q7" value="K. D. Jadhav"> K. D. Jadhav<br>
+            <input type="radio" name="q7" value="P. V. Sindhu"> P. V. Sindhu<br>
         </div>
-
-        <div id="question8" class="question" style="display: none;">
-            <h3>Question 8: What is the main purpose of a priority queue?</h3>
-            <input type="radio" name="q8" value="Random access to elements"> Random access to elements<br>
-            <input type="radio" name="q8" value="Efficiently finding the maximum element"> Efficiently finding the
-            maximum element<br>
-            <input type="radio" name="q8" value="Maintaining a first-in-first-out order"> Maintaining a
-            first-in-first-out order<br>
+        
+        <div id="question8" class="question" style="display: none">
+            <h3>Question 8: In which sport did Anju Bobby George make history for India?</h3>
+            <input type="radio" name="q8" value="Athletics"> Athletics<br>
+            <input type="radio" name="q8" value="Wrestling"> Wrestling<br>
+            <input type="radio" name="q8" value="Shooting"> Shooting<br>
         </div>
-
-        <div id="question9" class="question" style="display: none;">
-            <h3>Question 9: Which operation takes constant time in a hash table with a well-designed hash function?</h3>
-            <input type="radio" name="q9" value="Insertion"> Insertion<br>
-            <input type="radio" name="q9" value="Deletion"> Deletion<br>
-            <input type="radio" name="q9" value="Searching"> Searching<br>
+        
+        <div id="question9" class="question" style="display: none">
+            <h3>Question 9: Which Indian cricketer is known as the "Captain Cool"?</h3>
+            <input type="radio" name="q9" value="Rohit Sharma"> Rohit Sharma<br>
+            <input type="radio" name="q9" value="Virat Kohli"> Virat Kohli<br>
+            <input type="radio" name="q9" value="Mahendra Singh Dhoni"> Mahendra Singh Dhoni<br>
         </div>
-
-        <div id="question10" class="question" style="display: none;">
-            <h3>Question 10: What is the primary drawback of using a linear search algorithm?</h3>
-            <input type="radio" name="q10" value="Inefficient for large datasets"> Inefficient for large datasets<br>
-            <input type="radio" name="q10" value="Requires a sorted collection"> Requires a sorted collection<br>
-            <input type="radio" name="q10" value="Consumes excessive memory"> Consumes excessive memory<br>
-        </div>
+        
+        <div id="question10" class="question" style="display: none">
+            <h3>Question 10: In which sport did Saina Nehwal achieve success for India?</h3>
+            <input type="radio" name="q10" value="Badminton"> Badminton<br>
+            <input type="radio" name="q10" value="Boxing"> Boxing<br>
+            <input type="radio" name="q10" value="Wrestling"> Wrestling<br>
+        </div>        
         <br>
         <button type="button" id="prevbtn" style="display: none;" onclick="showPrev()">Previous</button><br>
         <button type="button" id="nextbtn" onclick="showNext()">Next</button><br><br>
