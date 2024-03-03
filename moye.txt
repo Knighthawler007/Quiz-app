@@ -13,65 +13,129 @@ Here are the answers for coding:
 
 Here are the answers for Science:
 
-1. **Biology:** What is the powerhouse of the cell?
+1. Biology: What is the powerhouse of the cell?
    - Answer: C) Mitochondria
 
-2. **Physics:** What is the SI unit of force?
+2. Physics: What is the SI unit of force?
    - Answer: A) Newton
 
-3. **Chemistry:** Which element has the chemical symbol "O"?
+3. Chemistry: Which element has the chemical symbol "O"?
    - Answer: A) Oxygen
 
-4. **Astronomy:** What is the closest galaxy to the Milky Way?
+4. Astronomy: What is the closest galaxy to the Milky Way?
    - Answer: A) Andromeda
 
-5. **Earth Science:** What layer of the Earth's atmosphere contains the ozone layer?
+5. Earth Science: What layer of the Earth's atmosphere contains the ozone layer?
    - Answer: B) Stratosphere
 
-6. **Environmental Science:** Which gas is responsible for the greenhouse effect?
+6. Environmental Science: Which gas is responsible for the greenhouse effect?
    - Answer: B) Carbon Dioxide
 
-7. **Anatomy:** What is the largest organ in the human body?
+7. Anatomy: What is the largest organ in the human body?
    - Answer: B) Skin
 
-8. **Genetics:** What is the name of the molecule that carries genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms?
+8. Genetics: What is the name of the molecule that carries genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms?
    - Answer: B) DNA
 
-9. **Paleontology:** What era is known as the "Age of Dinosaurs"?
+9. Paleontology: What era is known as the "Age of Dinosaurs"?
    - Answer: B) Mesozoic Era
 
-10. **Medicine:** Which scientist discovered penicillin?
+10. Medicine: Which scientist discovered penicillin?
     - Answer: A) Alexander Fleming
 
 
 Here are the answers for sports:
 
-1. **Cricket:** Who is known as the "God of Cricket" in Indian cricket history?
+1. Cricket: Who is known as the "God of Cricket" in Indian cricket history?
    - Answer: C) Sachin Tendulkar
 
-2. **Cricket:** In which city did the first edition of the Indian Premier League (IPL) take place?
+2. Cricket: In which city did the first edition of the Indian Premier League (IPL) take place?
    - Answer: A) Mumbai
 
-3. **Olympics:** Which Indian athlete won the first individual gold medal in the Olympic Games?
+3. Olympics: Which Indian athlete won the first individual gold medal in the Olympic Games?
    - Answer: B) P. T. Usha
 
-4. **Sports:** In which sport is Geet Sethi associated with?
+4. Sports: In which sport is Geet Sethi associated with?
    - Answer: B) Snooker
 
-5. **Cricket:** Who is the captain of the Indian men's national cricket team as of 2022?
+5. Cricket: Who is the captain of the Indian men's national cricket team as of 2022?
    - Answer: A) Rohit Sharma
 
-6. **Commonwealth Games:** In which year did India host the Commonwealth Games for the first time?
+6. Commonwealth Games: In which year did India host the Commonwealth Games for the first time?
    - Answer: B) 2010
 
-7. **Olympics:** Who was the first Indian to win an Olympic gold medal?
+7. Olympics: Who was the first Indian to win an Olympic gold medal?
    - Answer: B) K. D. Jadhav
 
-8. **Athletics:** In which sport did Anju Bobby George make history for India?
+8. Athletics: In which sport did Anju Bobby George make history for India?
    - Answer: A) Athletics
 
-9. **Cricket:** Which Indian cricketer is known as the "Captain Cool"?
+9. Cricket: Which Indian cricketer is known as the "Captain Cool"?
    - Answer: C) Mahendra Singh Dhoni
 
-10. **Badminton:** In which sport did Saina Nehwal achieve success for India?
+10. Badminton: In which sport did Saina Nehwal achieve success for India?
     - Answer: A) Badminton
+
+Answers of Indian Literature:
+
+1. Question 1: What is the author of the novel "The God of Small Things"?
+   - Answer: Arundhati Roy
+
+2. Question 2: Which Indian poet is known for his work "Gitanjali"?
+   - Answer: Rabindranath Tagore
+
+3. Question 3: Who wrote the historical novel "The White Tiger"?
+   - Answer: Aravind Adiga
+
+4. Question 4: Which Indian author is known for his epic series "The Shiva Trilogy"?
+   - Answer: Amish Tripathi
+
+5. Question 5: In which language did Munshi Premchand primarily write his novels and stories?
+   - Answer: Hindi
+
+6. Question 6: Who is known as the "Nightingale of India"?
+   - Answer: Sarojini Naidu
+
+7. Question 7: Which novel by R. K. Narayan features the character Swami?
+   - Answer: Swami and Friends
+
+8. Question 8: Who wrote the famous play "Tughlaq"?
+   - Answer: Girish Karnad
+
+9. Question 9: Which book by Chetan Bhagat was adapted into the Bollywood film "3 Idiots"?
+   - Answer: Five Point Someone
+
+10. Question 10: In which year did Salman Rushdie win the Booker Prize for his novel "Midnight's Children"?
+    - Answer: 1981
+
+Answers of Current Affairs:
+1. Question 1: Which country recently hosted the G20 Summit?
+   - Answer: Italy
+
+2. Question 2: What is the capital of Brazil?
+   - Answer: Brasília
+
+3. Question 3: Who won the Nobel Prize in Physics in the most recent announcement?
+   - Answer: Reinhard Genzel
+
+4. Question 4: Which country recently launched its first space tourism mission?
+   - Answer: United States
+
+5. Question 5: What major climate conference took place in 2021, addressing global environmental issues?
+   - Answer: COP26
+
+6. Question 6: In which city did the 2020 Summer Olympics take place?
+   - Answer: Tokyo
+
+7. Question 7: What is the latest development in the ongoing COVID-19 pandemic?
+   - Answer: Discovery of a new variant
+
+8. Question 8: Which country recently announced a significant milestone in renewable energy production?
+   - Answer: India
+
+9. Question 9: Who is the current Secretary-General of the United Nations?
+   - Answer: António Guterres
+
+10. Question 10: In which region did a major natural disaster recently occur, impacting multiple countries?
+    - Answer: Southeast Asia
+
