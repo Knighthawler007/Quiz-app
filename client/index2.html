@@ -86,9 +86,10 @@
             <input type="radio" name="q10" value="Requires a sorted collection"> Requires a sorted collection<br>
             <input type="radio" name="q10" value="Consumes excessive memory"> Consumes excessive memory<br>
         </div>
-
-        <button type="button" id="prevbtn" style="display: none;" onclick="showPrev()">Previous</button>
-        <button type="button" id="nextbtn" onclick="showNext()">Next</button>
+        <br>
+        <button type="button" id="prevbtn" style="display: none;" onclick="showPrev()">Previous</button><br>
+        <button type="button" id="nextbtn" onclick="showNext()">Next</button><br><br>
+        <button type="submit" id="sbmt" style="display: none;" onclick="submit()">Submit</button>
 
         <script>
             let qi=1;
@@ -114,15 +115,22 @@
                 if(qi==1)
                 {
                     document.getElementById("prevbtn").style.display="none";
-                }else{
-                    document.getElementById("prevbtn").style.display="block";
-                }
-                if(qi==qt)
-                {
-                    document.getElementById("nextbtn").style.display="none";
-                }else{
                     document.getElementById("nextbtn").style.display="block";
+                    document.getElementById("sbmt").style.display="none";
                 }
+                else if(qi<qt)
+                {
+                    document.getElementById("nextbtn").style.display="block";
+                    document.getElementById("prevbtn").style.display="block";
+                    document.getElementById("sbmt").style.display="none";
+                    
+                }
+                else{
+                    document.getElementById("prevbtn").style.display="block";
+                    document.getElementById("nextbtn").style.display="none";
+                    document.getElementById("sbmt").style.display="block";
+                }
+               
                 }
             
         </script>
