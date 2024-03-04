@@ -6,19 +6,19 @@ const pathfinder=path.join(__dirname,'client')
 app.use(bodyparser.urlencoded({extended:true}))
 
 
-app.get("/start",(req,res)=>{
+app.get("/",(req,res)=>{
     res.sendFile(`${pathfinder}/index.html`)
 });
-app.post("/start",(req,res)=>{
+app.post("/",(req,res)=>{
     const body=req.body;
     console.log("submitted with:",body);
-    res.redirect("/start2");
+    res.redirect("/topics");
 });
-app.get("/start2",(req,res)=>{
+app.get("/topics",(req,res)=>{
     res.sendFile(`${pathfinder}/Topics.html`)
     
 });
-app.post("/start2",(req,res)=>{
+app.post("/topics",(req,res)=>{
    const topic=req.body;
    switch(topic)
    {
