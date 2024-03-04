@@ -26,19 +26,19 @@ app.post("/start2",(req,res)=>{
             res.redirect("/code");
             break;
         case "sport":
-            res.redirect("/sport");
+            res.redirect("/sports");
             break;
         case "sci":
-            res.redirect("/sci");
+            res.redirect("/science");
             break;
         case "lit":
-            res.redirect("/lit");
+            res.redirect("/literature");
             break;
         case "curr":
-            res.redirect("/curr");
+            res.redirect("/currentaffairs");
             break;
         default:
-            res.redirect("/sci");
+            res.redirect("/science");
 
    }
 });
@@ -50,34 +50,34 @@ app.post("/code",(req,res)=>{
     console.log("submitted with",body3);
     res.send("submitted");
 });
-app.get("/curr",(req,res)=>{
+app.get("/currentaffairs",(req,res)=>{
     res.sendFile(`${pathfinder}/Current.html`)
 });
-app.post("/curr",(req,res)=>{
+app.post("/currentaffairs",(req,res)=>{
     const body4=req.body;
     console.log("submitted with",body4);
     res.send("submitted");
 });
-app.get("/sport",(req,res)=>{
+app.get("/sports",(req,res)=>{
     res.sendFile(`${pathfinder}/Sports.html`)
 });
-app.post("/sport",(req,res)=>{
+app.post("/sports",(req,res)=>{
     const body5=req.body;
     console.log("submitted with",body5);
     res.send("submitted");
 });
-app.get("/sci",(req,res)=>{
+app.get("/science",(req,res)=>{
     res.sendFile(`${pathfinder}/Science.html`)
 });
-app.post("/sci",(req,res)=>{
+app.post("/science",(req,res)=>{
     const body6=req.body;
     console.log("submitted with",body6);
     res.send("submitted");
 });
-app.get("/lit",(req,res)=>{
+app.get("/literature",(req,res)=>{
     res.sendFile(`${pathfinder}/Literature.html`)
 });
-app.post("/lit",(req,res)=>{
+app.post("/literature",(req,res)=>{
     const body7=req.body;
     console.log("submitted with",body7);
     res.send("submitted");
